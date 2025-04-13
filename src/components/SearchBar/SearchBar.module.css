@@ -1,0 +1,19 @@
+.header {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  input {
+    height: 30px;
+    width: 400px;
+  }
+
+  button {
+    height: 50px;
+    width: 120px;
+    margin-left: 20px;
+  }
+  button:hover {
+    background-color: rgb(80, 80, 80);
+    border-color: antiquewhite;
+  }
+}
