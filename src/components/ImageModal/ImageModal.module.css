@@ -1,0 +1,21 @@
+.modal {
+  outline: none;
+  background: transparent;
+  border: none;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-top: 7%;
+    max-width: 800px;
+    max-height: 90vh;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+  }
+}

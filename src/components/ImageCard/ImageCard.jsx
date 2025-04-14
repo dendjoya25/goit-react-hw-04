@@ -1,8 +1,8 @@
 import React from "react";
 
-const ImageCard = ({ src, alt }) => {
+const ImageCard = ({ src, alt, onClick }) => {
   return (
-    <div>
+    <div onClick={onClick}>
       <img src={src} alt={alt} />
     </div>
   );
